@@ -1,0 +1,4 @@
+feat(project): Project struct made
+
+The previous struct of the 
+project was created.

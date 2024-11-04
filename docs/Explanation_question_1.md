@@ -1,0 +1,1 @@
+![image example](../src/images/question_1/image.png)
