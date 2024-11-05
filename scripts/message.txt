@@ -1,4 +1,5 @@
-feat(project): Project struct made
+feat(project): base code for mininet topology
 
-The previous struct of the 
-project was created.
+The base code of how to create 
+the topology of the mininet using
+python was made.

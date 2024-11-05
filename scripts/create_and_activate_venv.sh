@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Fixed name for the virtual environment
-venvName="S202venv"
+venvName="C115venv"
 
 # Automatically detect the Python path
 pythonPath=$(command -v python)
