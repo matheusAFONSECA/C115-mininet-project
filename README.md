@@ -1,5 +1,5 @@
 # C115-mininet-project
-Respositório dedicado a guardar o projeto final do mininet da disciplina C115 - dispositivos conectados do INATEL (Instituto Nacional de Telecomunicações).
+A repository dedicated to storing the final project of the C115 mininet - connected devices course at INATEL (Instituto Nacional de Telecomunicações).
 
 [Explanation of question 1](docs/Explanation_question_1.md)
 

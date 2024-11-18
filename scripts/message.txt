@@ -1,4 +1,4 @@
-feat(project): question 1 done
+feat(project): question 2 done
 
 Images related to question
-1 done.
+2 done.

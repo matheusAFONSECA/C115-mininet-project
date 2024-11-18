@@ -28,3 +28,25 @@ iperf -s -p 5555 -i 1 -t 15 -b 30M
 
 - making node h2 as a client on xterm:
 iperf -c 10.0.0.1 -p 5555 -i 1 -t 15 -b 30M
+
+- Creating topology using a python script:
+sudo -E mn --custom=custom-topology.py --topo networktopo
+
+- Defining the switch with a normal flow:
+sudo ovs-ofctl add-flow s1 action=normal
+
+- Creating a rule:
+sudo ovs-ofctl add-flow s6 dl_src=00:00:00:00:00:02,dl_dst=00:00:00:00:00:03,actions=output:1
+sudo ovs-ofctl add-flow s6 dl_src=00:00:00:00:00:03,dl_dst=00:00:00:00:00:02,actions=output:2
+
+- verifing rule created to a switch:
+sudo ovs-ofctl dump-flows s6
+
+- testing ping on another host using xterm after created the rule:
+ping 192.168.0.3
+
+- hearing on the another host using tcpdump:
+tcpdump -XX -n -i h3-eth0
+
+- Removing rules:
+sudo ovs-ofctl del-flows s6
