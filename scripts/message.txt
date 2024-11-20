@@ -1,4 +1,4 @@
-feat(project): question 2 done
+feat(project): ReadMe done
 
-Images related to question
-2 done.
+Explanation about
+the project done.
